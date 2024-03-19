@@ -14,6 +14,7 @@ El modelo de datos propuesto para este proyecto lo podemos encontrar en el direc
 </br >
 Este dataset se ajusta a ambos esquemas de almacenamiento, data warehouse y data lake, pues podríamos realizar un pipeline ETL y disponer los datos ya estructurados y "limpios" para ser consultados y consumidos por los servicios externos. También podríamos implementar un esquema data lake, en el cual extraemos y guardamos los datos en bruto en un repositorio (puede ser local o en la nube, por ejemplo, en S3) y luego seleccionar los datos necesarios y realizar una transformación específica para un problema específico (ELT), siguiendo una arquitectura de medalla (bronze, silver, gold). 
 </br >
-Las fuentes de datos son las siguientes:</br >
-- Links para descargar los datasets: ./docs/data_source.txt.
-- Metadatos | Diccionario de datos: ./docs/metadata.xlsx.
+Las fuentes de datos son las siguientes:
+</br >
+1. Links para descargar los datasets: ./docs/data_source.txt.
+2. Metadatos | Diccionario de datos: ./docs/metadata.xlsx.
