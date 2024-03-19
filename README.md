@@ -19,5 +19,5 @@ Este dataset se ajusta a ambos esquemas de almacenamiento, data warehouse y data
 Las fuentes de datos son las siguientes:
 </br >
 </br >
-* Links para descargar los datasets: ./docs/data_source.txt
-* Metadatos | Diccionario de datos: ./docs/metadata.xlsx
+- Links para descargar los datasets: ./docs/data_source.txt.
+- Metadatos | Diccionario de datos: ./docs/metadata.xlsx.
