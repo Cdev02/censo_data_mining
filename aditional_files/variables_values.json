@@ -1,0 +1,11 @@
+{
+    "viviendas_path":"../05_Antioquia/viviendas.CSV",
+    "geo_path":"../05_Antioquia/georreferenciacion.CSV",
+    "hogares_path":"../05_Antioquia/hogares.CSV",
+    "personas_path":"../05_Antioquia/personas.CSV",
+    "geo_var_to_use":["COD_ENCUESTAS","U_DPTO","U_MPIO","UA_CLASE","UA1_LOCALIDAD","U_SECT_URB","U_SECC_URB"],
+    "viviendas_var_to_use":["COD_ENCUESTAS","UVA_USO_UNIDAD","V_TIPO_VIV","V_TOT_HOG", "V_CON_OCUP","VA1_ESTRATO","VB_ACU","VC_ALC","VD_GAS","VF_INTERNET","V_TIPO_SERSA","VE_RECBAS","VE1_QSEM"],
+    "hogares_var_to_use":["COD_ENCUESTAS","H_NRO_CUARTOS","H_NRO_DORMIT","H_AGUA_COCIN","HA_NRO_FALL","HA_TOT_PER"],
+    "personas_var_to_use":["COD_ENCUESTAS","P_NROHOG","P_SEXO","P_EDADR","P_PARENTESCOR","PA_LUG_NAC","PA_VIVIA_1ANO","PA_VIVIA_5ANOS","P_ENFERMO","CONDICION_FISICA","P_ALFABETA","PA_ASISTENCIA","P_NIVEL_ANOSR","P_TRABAJO","P_EST_CIVIL","PA_HNV","PA1_THSV","PA1_THFC"],
+    "georref_data_parsing":{"U_DPTO":"str", "U_MPIO":"str", "UA_CLASE":"str", "UA1_LOCALIDAD":"str", "U_SECT_URB":"str"}
+}
